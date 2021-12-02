@@ -23,6 +23,8 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "relocal": "yarn remove cl-react-tailblocks && yarn add ../cl-react-tailblocks && rm -rf node_modules/cl-react-tailblocks/node_modules"
   },
   "eslintConfig": {
@@ -45,6 +47,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9",
+    "gh-pages": "^3.2.3",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
