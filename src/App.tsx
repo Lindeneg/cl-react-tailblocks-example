@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ThemeContext } from "cl-react-tailblocks";
 import type { ThemeContextContent } from "cl-react-tailblocks";
-import { Component } from "./Component";
+import { Home } from "./Home";
 
 function App() {
   const [cxt, setCxt] = useState<ThemeContextContent>({
@@ -28,7 +28,7 @@ function App() {
       }}
     >
       <div className="App">
-        <Component />
+        <Home />
       </div>
     </ThemeContext.Provider>
   );
