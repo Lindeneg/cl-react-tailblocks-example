@@ -14,5 +14,5 @@ cd cl-react-tailblocks-example
 # install dependencies
 yarn install
 # start react app
-craco start
+yarn start
 ```
