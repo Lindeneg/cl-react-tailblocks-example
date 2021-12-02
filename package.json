@@ -2,6 +2,7 @@
   "name": "cl-react-tailblocks-example",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lindeneg.github.io/cl-react-tailblocks-example",
   "dependencies": {
     "@craco/craco": "^6.4.2",
     "@testing-library/jest-dom": "^5.11.4",
