@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { ThemeContext } from "cl-react-tailblocks";
-import type { ThemeContextContent } from "cl-react-tailblocks";
+import { ThemeContextProvider, ThemeContextContent } from "cl-react-tailblocks";
 import { Home } from "./Home";
 
 function App() {
@@ -20,7 +19,7 @@ function App() {
   };
 
   return (
-    <ThemeContext.Provider
+    <ThemeContextProvider
       value={{
         theme: cxt.theme,
         color: cxt.color,
@@ -30,7 +29,7 @@ function App() {
       <div className="App">
         <Home />
       </div>
-    </ThemeContext.Provider>
+    </ThemeContextProvider>
   );
 }
 
