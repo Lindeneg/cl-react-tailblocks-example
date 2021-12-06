@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ThemeContextProvider, ThemeContextContent } from "cl-react-tailblocks";
 import { Home } from "./Home";
+import { ExtendThemeContext } from "./types";
 
 function App() {
   const [cxt, setCxt] = useState<ThemeContextContent>({
@@ -19,11 +20,11 @@ function App() {
   };
 
   return (
-    <ThemeContextProvider
+    <ThemeContextProvider<ExtendThemeContext>
       value={{
         theme: cxt.theme,
         color: cxt.color,
-        setContext: onSwitchTheme,
+        switchTheme: onSwitchTheme,
       }}
     >
       <div className="App">
