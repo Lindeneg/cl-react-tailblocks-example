@@ -1,8 +1,9 @@
-import React, { useContext } from "react";
+import React from "react";
 import * as TailBlock from "cl-react-tailblocks";
+import { ExtendThemeContext } from "./types";
 
 export function Header() {
-  const cxt = useContext(TailBlock.ThemeContext);
+  const cxt = TailBlock.useTheme<ExtendThemeContext>();
   return (
     <TailBlock.Header
       buttonText="Switch Theme"
@@ -22,7 +23,7 @@ export function Header() {
       ]}
       name="Tailblocks"
       onClick={() => {
-        cxt?.setContext && cxt.setContext();
+        cxt.switchTheme();
       }}
       orientation="right"
     />
