@@ -5,17 +5,17 @@
     "main.js.map": "/cl-react-tailblocks-example/static/js/main.4983da1f.chunk.js.map",
     "runtime-main.js": "/cl-react-tailblocks-example/static/js/runtime-main.3fde0bda.js",
     "runtime-main.js.map": "/cl-react-tailblocks-example/static/js/runtime-main.3fde0bda.js.map",
-    "static/js/2.af144b4a.chunk.js": "/cl-react-tailblocks-example/static/js/2.af144b4a.chunk.js",
-    "static/js/2.af144b4a.chunk.js.map": "/cl-react-tailblocks-example/static/js/2.af144b4a.chunk.js.map",
+    "static/js/2.5d59c24a.chunk.js": "/cl-react-tailblocks-example/static/js/2.5d59c24a.chunk.js",
+    "static/js/2.5d59c24a.chunk.js.map": "/cl-react-tailblocks-example/static/js/2.5d59c24a.chunk.js.map",
     "static/js/3.c02188fe.chunk.js": "/cl-react-tailblocks-example/static/js/3.c02188fe.chunk.js",
     "static/js/3.c02188fe.chunk.js.map": "/cl-react-tailblocks-example/static/js/3.c02188fe.chunk.js.map",
     "index.html": "/cl-react-tailblocks-example/index.html",
     "static/css/main.17ceb574.chunk.css.map": "/cl-react-tailblocks-example/static/css/main.17ceb574.chunk.css.map",
-    "static/js/2.af144b4a.chunk.js.LICENSE.txt": "/cl-react-tailblocks-example/static/js/2.af144b4a.chunk.js.LICENSE.txt"
+    "static/js/2.5d59c24a.chunk.js.LICENSE.txt": "/cl-react-tailblocks-example/static/js/2.5d59c24a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3fde0bda.js",
-    "static/js/2.af144b4a.chunk.js",
+    "static/js/2.5d59c24a.chunk.js",
     "static/css/main.17ceb574.chunk.css",
     "static/js/main.4983da1f.chunk.js"
   ]
