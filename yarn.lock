@@ -3343,10 +3343,10 @@ cjs-module-lexer@^0.6.0:
   resolved "https://registry.yarnpkg.com/cjs-module-lexer/-/cjs-module-lexer-0.6.0.tgz#4186fcca0eae175970aee870b9fe2d6cf8d5655f"
   integrity sha512-uc2Vix1frTfnuzxxu1Hp4ktSvM3QaI4oXl4ZUqL1wjTu/BGki9TrCWoqLTg/drR1KwAEarXuRFCG2Svr1GxPFw==
 
-cl-react-tailblocks@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/cl-react-tailblocks/-/cl-react-tailblocks-0.0.7.tgz#81c9146a49beef1dad12d6d25cab024ccb00a2bd"
-  integrity sha512-AuCJg+fd1Fk720M23sP4Xm2VqNm6n8LOdTQs1+PZ7Ztj6jrQTE3A3sxP8dyDjwzg1qy5Cx4f/bLSx4VrrnCfFA==
+cl-react-tailblocks@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/cl-react-tailblocks/-/cl-react-tailblocks-0.0.8.tgz#346f4c8519c8bd79e21db3314020de1f6ec4ead7"
+  integrity sha512-FDbi3l3niSNYDViF/S5ZwutE8dZrZmKGTi2Ozs+q6nrczs5iRjbzG7CLj02pJYPyNmY6FV2rTp13MFmMFOQBGQ==
 
 class-utils@^0.3.5:
   version "0.3.6"
